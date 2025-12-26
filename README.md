@@ -1,14 +1,18 @@
 # Building an Active Directory Home Lab
 
-![Active Directory Lab](https://user-images.githubusercontent.com/125945785/221613070-a6d31055-a97c-4caf-8cc9-b29c2d08c0db.png)
+![Active Directory Lab](https://user-images.githubusercontent.com/65828628/236935173-6cb5f050-376a-4396-97aa-c147d9297f52.gif)
 
 ## Introduction
 
 In this project, I built a comprehensive Active Directory Home Lab to demonstrate enterprise-level network administration and cybersecurity skills. This hands-on environment simulates real-world IT infrastructure, allowing me to practice Active Directory configuration, user management, Group Policy implementation, and security monitoring. The lab provides practical experience in network architecture, domain services, and Windows Server administration that directly translates to professional IT and cybersecurity roles.
 
-## Architecture Overview
+## Architecture Before Hardening / Security Controls
 
-![Lab Architecture Diagram](https://via.placeholder.com/800x400?text=Active+Directory+Architecture+Diagram)
+![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
+
+## Architecture After Hardening / Security Controls
+
+![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
 
 The architecture of the Active Directory Home Lab consists of the following components:
 
