@@ -1,43 +1,91 @@
-<h1>Hi, I'm Schneider Chi! <br/><a href="https://github.com/joshmadakor1">Programmer</a>, <a href="https://www.linkedin.com/in/joshmadakor/">Cybersecurity Professional</a>, <a href="https://www.youtube.com/c/joshmadakor">YouTuber</a></h1>
+# Building an Active Directory Home Lab
 
-<h2>👨‍💻 Cybersecurity  Projects:</h2>
+![Active Directory Lab](https://user-images.githubusercontent.com/125945785/221613070-a6d31055-a97c-4caf-8cc9-b29c2d08c0db.png)
 
-  - [Active Directory Home Lab](https://github.com/KingSchneider/ActiveDirectorylab/blob/main/README.md)
-<h2>Certification<h2>
-[Comptia security + cerf](https://user-images.githubusercontent.com/125945785/221613070-a6d31055-a97c-4caf-8cc9-b29c2d08c0db.png)
+## Introduction
 
+In this project, I built a comprehensive Active Directory Home Lab to demonstrate enterprise-level network administration and cybersecurity skills. This hands-on environment simulates real-world IT infrastructure, allowing me to practice Active Directory configuration, user management, Group Policy implementation, and security monitoring. The lab provides practical experience in network architecture, domain services, and Windows Server administration that directly translates to professional IT and cybersecurity roles.
 
-<h2>📺 Popular YouTube Videos</h2>
+## Architecture Overview
 
-- [How to get into Cybersecurity Starting From Zero](https://www.youtube.com/watch?v=a83ASGn_V_s)
-- [A Day in the Life of a Cybersecurity Anayst](https://www.youtube.com/watch?v=uHy3oM7NnoU)
-- [How to Create a KeyLogger (C#)](https://www.youtube.com/watch?v=N-L9hklSlNk)
-- [Ransomware Demonstration (C#)](https://www.youtube.com/watch?v=OfvdQeh79s0)
-- [Is WGU Legit?](https://www.youtube.com/watch?v=E2MwRWxDBkA)
+![Lab Architecture Diagram](https://via.placeholder.com/800x400?text=Active+Directory+Architecture+Diagram)
 
-<h2> 🤳 Connect with me:</h2>
+The architecture of the Active Directory Home Lab consists of the following components:
 
-[<img align="left" alt="JoshMadakor | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
-[<img align="left" alt="JoshMadakor | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
-[<img align="left" alt="JoshMadakor | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="JoshMadakor | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
+- **Windows Server 2019** (Domain Controller)
+- **Active Directory Domain Services (AD DS)**
+- **DNS Server**
+- **DHCP Server**
+- **Windows 10/11 Client Machines**
+- **Virtual Network Configuration**
+- **Group Policy Objects (GPOs)**
+- **Organizational Units (OUs)**
 
-[twitter]: https://twitter.com/joshmadakor
-[youtube]: https://www.youtube.com/c/joshmadakor
-[instagram]: https://www.instagram.com/joshmadakor/
-[linkedin]: https://linkedin.com/in/joshmadakor
+## Lab Environment Details
 
-<!--
-**joshmadakor1/joshmadakor1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Domain Controller Setup
 
-Here are some ideas to get you started:
+The Windows Server acts as the primary domain controller, hosting Active Directory Domain Services, DNS, and DHCP. This centralized configuration enables enterprise-level user authentication, resource management, and policy enforcement across the network.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Network Configuration
+
+The virtual network is configured to simulate a corporate environment with proper IP addressing, subnetting, and network services. Client machines are joined to the domain and receive automatic configuration through DHCP.
+
+### Security Implementation
+
+Security measures include password policies, account lockout policies, user permissions, and Group Policy configurations that enforce security baselines across all domain-joined machines.
+
+## Key Features Implemented
+
+- **User Account Management**: Created and managed user accounts, groups, and organizational units
+- **Group Policy Administration**: Configured and deployed GPOs for security settings, software deployment, and user restrictions
+- **DNS Configuration**: Set up forward and reverse lookup zones for proper name resolution
+- **DHCP Services**: Automated IP address assignment and network configuration
+- **Security Hardening**: Implemented security policies and access controls
+- **Network Monitoring**: Configured event logging and security auditing
+
+## Skills Demonstrated
+
+This project showcases proficiency in:
+
+- Windows Server Administration
+- Active Directory Management
+- Network Services Configuration (DNS, DHCP)
+- Group Policy Implementation
+- User and Computer Management
+- Security Policy Enforcement
+- Virtualization Technologies
+- IT Infrastructure Design
+- Troubleshooting and Problem Resolution
+
+## Project Documentation
+
+For detailed implementation steps, screenshots, and configuration guides, visit the full project repository:
+
+👉 **[Active Directory Home Lab Repository](https://github.com/KingSchneider/ActiveDirectorylab)**
+
+## Certifications
+
+![CompTIA Security+ Certification](https://user-images.githubusercontent.com/125945785/221613070-a6d31055-a97c-4caf-8cc9-b29c2d08c0db.png)
+
+**CompTIA Security+ Certified** - Demonstrating foundational cybersecurity knowledge and skills
+
+## Additional Projects
+
+I’m continuously expanding my cybersecurity portfolio with new projects covering:
+
+- Security Operations Center (SOC) Implementation
+- Threat Detection and Incident Response
+- Network Security Monitoring
+- Vulnerability Assessment and Penetration Testing
+- Cloud Security (Azure/AWS)
+
+## Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourprofile)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/KingSchneider)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yourprofile)
+
+-----
+
+*Passionate about Cybersecurity | Active Directory | Network Security | SOC Operations*
